@@ -95,8 +95,7 @@ The app is designed to be simple, clean, and user-friendly.
 ## Authors
 
 - Panagiotis / Konstantinos Syrakis  
-- Ioannis Anthis  
-- Ioannis Tsaknákis  
+and 2 more 
 
 ---
 
