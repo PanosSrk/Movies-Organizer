@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/posterImageView"
+        android:layout_marginBottom="10dp"
+        android:layout_width="180dp"
+        android:layout_height="270dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/moviePoster" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/posterImageView"
+        android:textSize="16sp"
+        android:maxWidth="180dp"
+
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/releaseDateTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_toEndOf="@id/posterImageView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/averageVoteTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/releaseDateTextView"
+        android:layout_toEndOf="@id/posterImageView"
+        android:layout_marginStart="16dp"/>
+
+</RelativeLayout>

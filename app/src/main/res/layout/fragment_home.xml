@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        tools:context=".HomeFragment">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:id="@+id/textViewPopular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/popular" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPopular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/widget_background" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:id="@+id/textUpcoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upcoming" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewUpcoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/widget_background"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:id="@+id/textViewTopRated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_rated" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTopRated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

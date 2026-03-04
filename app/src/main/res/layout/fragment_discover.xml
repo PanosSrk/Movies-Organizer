@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscoverFragment"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/searchViewDiscover"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_background"
+        android:queryHint="Search"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+
+        />
+
+
+    <Button
+        android:id="@+id/button_categories"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/widget_background"
+        android:textColor="@color/design_default_color_on_primary"
+        android:text="@string/categories" />
+
+    <Button
+        android:id="@+id/button_sort"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/widget_background"
+        android:textColor="@color/design_default_color_on_primary"
+        android:text="@string/sort" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDiscover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

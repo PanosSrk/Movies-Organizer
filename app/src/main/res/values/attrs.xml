@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vector_tint" format="reference|color" />
+    <attr name="widget_background" format="reference|color" />
+</resources>
